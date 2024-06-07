@@ -1,9 +1,9 @@
-//Write a program to If statement in C with kapilcoder.
+//Write a program to If Else statement in C with kapilcoder.
 #include"stdio.h"
 #include"conio.h"
 int main()
 {
-     printf("if statement in C programming\n");
+     printf("if else statement in C programming\n");
     int x;
     printf("Please Enter Number : = ");
     scanf("%d",&x);
@@ -11,10 +11,10 @@ int main()
     {
         printf("Number is positive ");
     }
-    if(x<0)  {
+    else
     printf("Number is non positive ");
-    }
-    //That's all about if statement in programming .
+    
+    //That's all about if  else statement in programming .
     getch();
     return 0;
 }
