@@ -8,6 +8,7 @@ int main(){
     printf("1. A&B is %d\n",(a& b));
     printf("2. A|B is %d\n",(a|b));
     printf("3. A^B is %d\n",(a^b));
+    // These all Bitwise Operators in c programming.
     getch();
     return 0;
 }
