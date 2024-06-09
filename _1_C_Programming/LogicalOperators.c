@@ -1,3 +1,4 @@
+// write a program to use All logical Operators in C with kapilcoder
 #include"stdio.h"
 #include"conio.h"
 int main()

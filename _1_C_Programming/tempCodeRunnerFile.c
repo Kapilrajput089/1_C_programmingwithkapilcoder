@@ -1,1 +1,1 @@
-  printf("Logical Operators in C programming\n");
+// write a program to use Conditional Operators in C with kapilcoder

@@ -1,3 +1,4 @@
+// write a program to use Conditional Operators in C with kapilcoder
 #include"stdio.h"
 #include"conio.h"
 int main()
