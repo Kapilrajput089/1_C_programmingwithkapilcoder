@@ -6,8 +6,8 @@ int main()
     printf("Enter a number : = ");
     scanf("%d",&n);
       printf("N Naturl Numbers are :- \n");
-  for(int i=1;i<=n;i++)
-  printf("%d\n",i);
-getch();
-return 0;
+      for(int i=1;i<=n;i++)
+      printf("%d\n",i); 
+      getch();
+      return 0;
 }
