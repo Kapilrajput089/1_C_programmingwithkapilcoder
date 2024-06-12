@@ -1,3 +1,4 @@
+// write a program to print first N natural numbers using for loop in c programming
 #include"stdio.h"
 #include"conio.h"
 int main()
