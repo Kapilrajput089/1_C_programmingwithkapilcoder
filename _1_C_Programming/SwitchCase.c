@@ -3,7 +3,9 @@
 #include"conio.h"
 #include"stdlib.h"
 
-int main()
+int main()        /// A  switch statement is a conditional statement used inn c programming to check the value
+                 //  of  a variable and compare it with all the case if the value is with any case then its correspading 
+                //  statement will be executed.
 {
     int choice;
    int a,b,res;
@@ -17,7 +19,7 @@ int main()
     switch(choice)
  
     {
-        case 1:
+        case 1:// constant 
         printf("Enter two Numbers : = ");
         scanf("%d %d",&a,&b);
         res=a+b;
@@ -42,6 +44,8 @@ int main()
              printf("Multplication of two Numbers : %d",res);
           case 5:
           exit(1);
+          default :
+          printf("please Enter valid Number : ");
     }
           getch();
           return 0;
