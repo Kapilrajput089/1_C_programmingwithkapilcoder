@@ -1,4 +1,4 @@
-// write a program to add two number using function with kapilcoder.
+// write a program to add two number using function  take nothing return nothing .
 #include"stdio.h"
 #include"conio.h"
 void add();
