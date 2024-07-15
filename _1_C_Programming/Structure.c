@@ -4,7 +4,14 @@
 struct book input();
 void display(struct book);
 
-struct book
+struct book             /* * What is structure in c programming.
+                           * Structure is a user-defined data type that allows you to store multiple variables of diffrent types in a single unit its 
+						     like a container that holds various data types making it easier to organize and manipulate data.
+						   * A structure typically includes:
+						    * Member variable (data members ) these are the individual variables that make up the structure.
+						    * Member functions (Methods ) these are functions that operate on the structure's data member.
+                           
+						  */
 {
   int id;
   char b_name[25];
@@ -19,9 +26,9 @@ int main()
 struct book input()
 {
 	struct book b1;
-	printf("Enter the BookId    :     =");
+	printf("Enter the BookId    : =");
 	scanf("%d",&b1.id);
-	printf("Enter Book Name  : =");
+	printf("Enter Book Name  : = ");
 	scanf("%s",&b1.b_name);
 	fflush(stdin);
 	printf("Enter the Price : = ");
