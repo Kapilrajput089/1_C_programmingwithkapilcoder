@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Registered</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .views {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #555;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .connect-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #e1306c;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .connect-button:hover {
+            background-color: #c1255a;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="1729514694052.png" height="200px"width= "300px">
+        <h1>Namaste</h1>
+        <p>😒</p>
+        <a href="https://www.instagram.com/kapil_coder" class="connect-button" target="_blank">Connect me @kapil_Coder</a>
+        <div class="views">
+            <span id="viewsCount">Loading views...</span>
+        </div>
+    </div>
+    <script>
+        function fetchViewCount() {
+            fetch('/viewCounter')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('viewCount').innerText = data;
+            });
+        }
+        window.onload = fetchViewCount;
+    </script>
+
+   <!--  <script>
+        async function fetchViews() {
+            try {
+                const response = await fetch('https://view-counter-eta.vercel.app/api/views');
+                const data = await response.json();
+                document.getElementById('viewsCount').textContent = `Views: ${data.views}`;
+            } catch (error) {
+                document.getElementById('viewsCount').textContent = 'Error loading views.';
+            }
+        }
+
+        window.onload = fetchViews;
+        
+    </script>
+-->
+
+</body>
+
+</html>
