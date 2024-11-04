@@ -40,7 +40,7 @@
 31=> Dynamic Memory Allocation by using realloc functionof DMA.
 32=> Enumeration in C programming.
 33=> Preprocesssor in C programming.
-      #include Directive Preprocesssor command in C programming.
+ #include Directive Preprocesssor command in C programming.
 34=> Storage Classes in C programming.
 35=> predefined macros in C programming.
 36=> File Handling in C programming.
